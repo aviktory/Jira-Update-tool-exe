@@ -1,8 +1,12 @@
-Help
+Help 
+JIRA update tool/version 1.0
 
 1. Clone 
-Program search for all Test executions within a specified Test plan which have summary(name) field ending on the specified suffix. When such Test execution is found, 
-new Test execution with new summary suffix is created and all test cases assigned to the original Test execution will be assigned to the new one. 
+Program looks for all Test executions within a specified Test plan which have summary(name) field ending on the specified suffix. When such Test execution is found, 
+new Test execution with the new summary suffix(replacement of original suffix) is created and all test cases assigned to the original Test execution will be assigned to the new one. 
 
 2. Update test status  
-Program  looks for results in a specified Worksoft result folder within a Worksoft project, which were executed on a given date. Program takes the most recent result from the given date if more results of a Worksoft process exist and look for a test case with the same name(summary) in the specified Test execution in Jira. In case of a match, the worksoft test resuls(passed, failed, aborted) is set for the test case in Jira.
+Program  looks for results in a specified Worksoft result folder within a Worksoft project, which were executed on a given date. Program takes the most recent result from the given date if more results of a Worksoft process exist. Then program looks for a test case with the same name(summary) in the specified Test execution in Jira. In case of a match, the Worksoft test results(passed, failed, aborted) are set for the test cases in Jira.
+
+3. Settings 
+Set up login data for Worksoft and JIRA API access. 
