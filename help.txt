@@ -10,3 +10,6 @@ Program  looks for results in a specified Worksoft result folder within a Workso
 
 3. Settings 
 Set up login data for Worksoft and JIRA API access. 
+
+4. Config
+Update config.ini files if URL to JIRA API or Worksoft API have to be changed(change only base of URL, ex: "https://customer.jira.telekom.de") 
