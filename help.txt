@@ -6,7 +6,7 @@ Program looks for all Test executions within a specified Test plan(ex. HRENABLIN
 new Test execution with the new summary suffix(replacement of original suffix) is created and all test cases assigned to the original Test execution will be assigned to the new one. 
 
 2. Update test status  
-Program  looks for results in a specified Worksoft result folder(ex. DEUTSCHE TELEKOM/Sandbox/aviktory) within a Worksoft project, which were executed on a given date. Program takes the most recent result from the given date if more results of a Worksoft process exist. Then program looks for a test case with the same name(summary) in the specified Test execution in Jira(ex. HRENABLING-71667). In case of a match, the Worksoft test results(passed, failed, aborted) are set for the test cases in Jira.
+Program  looks for results in a specified Worksoft result folder(ex. DEUTSCHE TELEKOM/Sandbox/aviktory) within a Worksoft project, which were executed on a given date. Program takes the most recent result from the given date if more results of a Worksoft process exist. Then program looks for a test case with the same name(summary) in the specified Test execution in Jira(ex. HRENABLING-71667). In case of a match, the Worksoft test results(passed, failed, aborted) are set for the test cases in Jira. You can insert multiple Test execution keys, they must be each in a separate row. 
 
 3. Settings 
 Set up login data(token) for Worksoft and JIRA API access. 
